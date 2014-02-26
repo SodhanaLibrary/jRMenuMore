@@ -1,0 +1,63 @@
+ul.horizontal-responsive-menu, .horizontal-responsive-menu ul  {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.horizontal-responsive-menu li {
+float: left;  
+}
+.horizontal-responsive-menu {
+height: 50px;
+float: left;
+width:100%;
+}
+.horizontal-responsive-menu a:visited {
+font-weight: bold;
+background-color: #98bf21;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+.horizontal-responsive-menu a:link, div.horizontal a:visited {
+font-weight: bold;
+background-color: #98bf21;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+.horizontal-responsive-menu a {
+display: block;
+line-height:50px;
+  padding:38px 36px;
+    color: #6e6e6e;
+    font: bold 12px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    
+}
+
+.horizontal-responsive-menu a:hover {
+color: #333;
+border-bottom:3px solid rgb(1,202,255);
+padding-bottom:35px;
+}
+
+.horizontal-responsive-menu li.hideshow ul{
+position:absolute;
+background: #f3f3f3;
+display:none;
+left:0px;
+}
+
+.horizontal-responsive-menu li.hideshow
+{
+position:relative;
+}
